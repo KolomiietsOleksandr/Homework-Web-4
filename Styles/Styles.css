@@ -1,0 +1,535 @@
+@font-face {
+    font-family: 'Abel';
+    src: url('/Abel/Abel-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('/Aleo/Aleo-VariableFont_wght.ttf') format('ttf');
+}
+
+#TopBlock{
+    display: inline-block;
+}
+
+#IconIMG{
+    width: 30px;
+    display: inline-block;
+    position: relative;
+
+    left: 20px;
+    bottom: 5px;
+}
+
+#LogoName{
+    display: inline-block;
+    font-family: 'Abel';
+    font-style: bold;
+    color:#000D40;
+
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+}
+
+#TopBlockButtons{
+    display: inline;
+    position: relative;
+
+    left: 1150px;
+    bottom: 10px;
+}
+
+.TopBlockButton{
+    display: inline-block;
+    font-family: 'Abel';
+    color:#000D40;
+
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: white;
+    line-height: 26px;
+}
+
+#NotifyBut{
+    font-family: 'Abel';
+    color:#129AFE;
+    display: inline-block;
+    border: 5px, #129AFE;
+    border-color: #129AFE;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 16px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Language{
+    font-family: 'Abel', sans-serif;
+    color:#129AFE;
+
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: white;
+    line-height: 26px;
+}
+
+#MainBlock{
+    display: grid;
+    place-items: center;
+}
+
+#TopText{
+    font-family: 'Abel';
+    font-size: 64px;
+    margin: 0px;
+    margin-top: 100px;
+}
+
+#MiddleText{
+    font-family: 'Abel';
+    text-align: center;
+    font-size: 32px;
+
+    margin-top: 20px;
+}
+
+span{
+    color: #129AFE;
+}
+
+.text-ser{
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius:28px;
+    border-radius: 28px;
+    position: relative;
+
+    font-family: 'Abel';
+    font-size: 24px;
+    padding: 10px, 10px;
+    padding-left: 15px;
+    height: 40px;
+    width: 550px;
+    margin-top: 10px;
+    border: 2px solid #129AFE;
+    background-color: #ffffff;
+
+    z-index: 0;
+}
+
+#serb{
+    font-family: 'Abel';
+    color: #ffffff;
+    border: 2px, #129AFE;
+    border-color: #129AFE;
+    cursor: pointer;
+    background-color: #129AFE;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 20px;
+
+    position: relative;
+    bottom: 45px;;
+    left: 250px;
+}
+
+#dropdown {
+    display: none;
+    position: absolute;
+    width: 550px;
+    background-color: #ffffff;
+    border: 2px solid #E9EEF2;
+    overflow-y: auto;
+    margin-top: 550px;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    font-family: "Abel";
+    z-index: 1;
+}
+
+#more{
+    color: #129AFE;
+}
+
+
+#dropdown p {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#BlocksDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.Block{
+    background-color: #f9f9f9;
+    width: 450px;
+    height: 300px;
+
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.BlockName{
+    font-family: "Abel";
+    font-size: 32px;
+    padding-left: 30px;
+}
+
+.BlockText{
+    font-family: "Abel";
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+.GotoAr{
+    font-family: "Abel";
+    font-size: 24px;
+    padding-left: 30px;
+    color: #129AFE;
+}
+
+#Emodji{
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+    margin-top: 250px;
+}
+
+#FAQname{
+    font-size: 72px;
+    text-align: center;
+    font-family: "Abel";
+    margin: 0px;
+}
+
+#questionsDiv{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#Qu1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: #129AFE;
+    font-family: 'Abel';
+    font-size: 32px;
+}
+
+.Answers{
+    font-family: 'Abel';
+    font-size: 24px;
+    color: #5C6485;
+
+    padding-bottom: 30px;
+    border-bottom: solid 0.25vh #d3d3d3;
+}
+
+.arrow{
+    color: #129AFE;
+    text-align: right;
+    font-size: 24px;
+}
+
+.questions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #001153;
+    flex-direction:row;
+
+
+    font-family: 'Abel';
+    font-size: 32px;
+    border-bottom: solid 0.25vh #d3d3d3;
+}
+
+.questions1 {
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+#ButtomBlock{
+display: flexbox;
+justify-content: center;
+align-items: center;
+}
+
+#golub{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+
+#gt1{
+    position: relative;
+    left: -5%;
+    transform: translate(-50%, 10%);
+    -webkit-transform: translate(-50%, 10%);
+    -moz-transform: translate(-50%, 10%);
+    -ms-transform: translate(-50%, 10%);
+    -o-transform: translate(-50%, 10%);
+}
+
+#gt2{
+    position: relative;
+    left: 10%;
+    transform: translate(-50%, 10%);
+}
+
+.semicircle {
+    width: 100%;
+    height: 110%;
+    border-top-left-radius: 40% 30%; /* Half-circle shape for the top-left corner */
+    border-top-right-radius: 40% 30%;
+    position: absolute;
+    top: 320%;
+    background: #000D40;
+    z-index: -1;
+}
+
+#Buttomtext{
+    text-align: center;
+    font-family: "Abel";
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 100px;
+    padding-bottom: -100px;
+}
+
+#ContactUS{
+    font-family: 'Abel';
+    color: #ffffff;
+    border: 5px, #129AFE;
+    border-color: #129AFE;
+    cursor: pointer;
+    background-color: #129AFE;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 32px;
+}
+
+#Buttom1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height: 70vh;
+    margin: 0;
+}
+
+#IconIMGdown{
+    width: 30px;
+    padding-left: 100px;
+    position: relative;
+}
+
+#footer{
+    color: #ffffff;
+    font-family: "Aleo";
+    font-size: 16px;
+}
+
+#ftext{
+    font-family: "Aleo";
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#Features{
+    margin-right: 100px;
+    position: relative;
+    bottom: 350px;
+}
+
+#Pages{
+   position: relative;
+   bottom: 350px;
+}
+
+#t3{
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+#t4{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#t5{
+    color: #5C6485;
+    padding-left: 100px;
+}
+
+#em{
+    font-family: "Aleo";
+    font-size: 32px;
+    position: relative;
+    bottom: 400px;
+    left: 150PX;
+}
+
+.text-con{
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius:28px;
+    border-radius: 28px;
+    position: relative;
+
+    font-family: 'Abel';
+    font-size: 24px;
+    padding: 10px, 10px;
+    padding-left: 15px;
+    height: 40px;
+    width: 350px;
+    margin-top: 10px;
+    border: 5px solid #129AFE;
+    background-color: #000D40;
+    margin-top: -00px;
+}
+
+#InB{
+    position: relative;
+
+    right: 100px;
+    font-family: 'Abel';
+    color: #ffffff;
+    border: 5px, #129AFE;
+    border-color: #129AFE;
+    cursor: pointer;
+    background-color: #129AFE;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 24px;
+}
+
+#icons{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 768px)
+{
+    #TopBlockButtons{
+        position: relative;
+        left: 450px;
+    }
+
+    .TopBlockButton{
+        display: none;
+    }
+
+    .Language{
+        display: none;
+    }
+
+    #questionsDiv{
+        width: 600px;
+    }
+
+    .questions{
+        font-size: 24px;
+    }
+
+    .semicircle{
+        margin-top: 2400px;
+    }
+
+    #gt1{
+        width: 0px;
+    }
+
+    #gt2{
+        width: 0px;
+    }
+
+    #Buttomtext{
+        font-size: 24px;
+    }
+
+    #ContactUS{
+        font-size: 20px;
+    }
+
+    #IconIMGdown{
+        width: 50px;
+        padding-left: 25px;
+    }
+
+    #t3{
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    #t4{
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    #t5{
+        font-size: 14px;
+        padding-left: 25px;
+    }
+
+    #ftext{
+        margin-top: 50px;
+        margin-left: 300px;
+    }
+
+    #Features{
+        font-size: 14px;
+        margin-right: 50px;
+    }
+
+    #Pages{
+        font-size: 14px;
+    }
+
+    #em{
+        font-size: 14px;
+        top: 5000px;
+        right: -350px;
+        position: absolute;
+    }
+
+    .text-con{
+        font-size: 14px;
+        width: 200px;
+    }
+
+    #InB{
+        font-size: 14px;
+        left: -100px;
+    }
+}
+
